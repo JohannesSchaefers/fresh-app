@@ -32,10 +32,8 @@ import { h } from "preact";
 
 export default function Home() {
   return (
-  //  <div>
-   <div   style={{ fontFamily: "Arial, sans-serif", margin: 2000 }}>
+    <div>  
       <h1>Welcome to the Fresh SSE Example!!</h1>
-      
     </div>
   );
 }
