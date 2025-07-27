@@ -34,7 +34,7 @@ import DataIsland from "../islands/DataIsland.tsx";
 export default function Home() {
   return (
   //  <div>
-   <div   style={{ fontFamily: "Arial, sans-serif", margin: 20 }}>
+   <div   style={{ fontFamily: "Arial, sans-serif", margin: 2000 }}>
       <h1>Welcome to the Fresh SSE Example!!</h1>
       <DataIsland />
     </div>
