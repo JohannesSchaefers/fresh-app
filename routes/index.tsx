@@ -33,7 +33,7 @@ import { h } from "preact";
 export default function Home() {
   return (
     <div>  
-      <h1>Welcome to the Fresh SSE Example!!</h1>
+      <h1>Welcome to the Fresh SSE Example!!f</h1>
     </div>
   );
 }
