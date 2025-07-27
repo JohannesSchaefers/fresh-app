@@ -29,14 +29,13 @@ export default function Home({ data }: PageProps<Data>) {
 /** @jsxRuntime classic  */
 /** @jsx h */
 import { h } from "preact";
-import DataIsland from "../islands/DataIsland.tsx";
 
 export default function Home() {
   return (
   //  <div>
    <div   style={{ fontFamily: "Arial, sans-serif", margin: 2000 }}>
       <h1>Welcome to the Fresh SSE Example!!</h1>
-      <DataIsland />
+      
     </div>
   );
 }
