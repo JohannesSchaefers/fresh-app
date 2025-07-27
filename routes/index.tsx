@@ -26,7 +26,7 @@ export default function Home({ data }: PageProps<Data>) {
 }
 */
 
-/** @jsxRuntime classic */
+/** @jsxRuntime classic  */
 /** @jsx h */
 import { h } from "preact";
 import DataIsland from "../islands/DataIsland.tsx";
