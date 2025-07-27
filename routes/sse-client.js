@@ -1,7 +1,7 @@
 // sse-client.js
 
-const evtSource = new EventSource("http://localhost:8000/api/data");
-
+// const evtSource = new EventSource("http://localhost:8000/api/data");
+const evtSource = new EventSource("https://freshsse.deno.dev/api/data");
 
 evtSource.onmessage = (event) => {
   try {
