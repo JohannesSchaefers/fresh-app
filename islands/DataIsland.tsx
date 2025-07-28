@@ -32,7 +32,7 @@ export default function DataIsland() {
     <div>
       <h2>Live Data from Server ( S S E )</h2>
       <pre
-        style={{ whiteSpace: "pre-wrap", background: "#eee", padding: "1em", borderRadius: "18px" }}
+        style={{ whiteSpace: "pre-wrap", background: "#eee", padding: "1em", borderRadius: "28px" }}
       >
         {data ? JSON.stringify(data, null, 2) : "Waiting for data..."}
       </pre>
